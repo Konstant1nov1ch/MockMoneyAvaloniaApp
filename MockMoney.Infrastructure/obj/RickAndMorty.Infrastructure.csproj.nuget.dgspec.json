@@ -1,0 +1,306 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Infrastructure/RickAndMorty.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Abstractions/RickAndMorty.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Abstractions/RickAndMorty.Abstractions.csproj",
+        "projectName": "RickAndMorty.Abstractions",
+        "projectPath": "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Abstractions/RickAndMorty.Abstractions.csproj",
+        "packagesPath": "/Users/konstantin/.nuget/packages/",
+        "outputPath": "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Abstractions/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/konstantin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AvaloniaUI/AvaloniaUI/_packaging/CI/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Model/RickAndMorty.Model.csproj": {
+                "projectPath": "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Model/RickAndMorty.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Commands/RickAndMorty.Commands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Commands/RickAndMorty.Commands.csproj",
+        "projectName": "RickAndMorty.Commands",
+        "projectPath": "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Commands/RickAndMorty.Commands.csproj",
+        "packagesPath": "/Users/konstantin/.nuget/packages/",
+        "outputPath": "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Commands/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/konstantin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AvaloniaUI/AvaloniaUI/_packaging/CI/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Abstractions/RickAndMorty.Abstractions.csproj": {
+                "projectPath": "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Abstractions/RickAndMorty.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Infrastructure/RickAndMorty.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Infrastructure/RickAndMorty.Infrastructure.csproj",
+        "projectName": "RickAndMorty.Infrastructure",
+        "projectPath": "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Infrastructure/RickAndMorty.Infrastructure.csproj",
+        "packagesPath": "/Users/konstantin/.nuget/packages/",
+        "outputPath": "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/konstantin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AvaloniaUI/AvaloniaUI/_packaging/CI/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Commands/RickAndMorty.Commands.csproj": {
+                "projectPath": "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Commands/RickAndMorty.Commands.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Mediator": {
+              "target": "Package",
+              "version": "[1.0.2123, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Model/RickAndMorty.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Model/RickAndMorty.Model.csproj",
+        "projectName": "RickAndMorty.Model",
+        "projectPath": "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Model/RickAndMorty.Model.csproj",
+        "packagesPath": "/Users/konstantin/.nuget/packages/",
+        "outputPath": "/Users/konstantin/dev/avaloneDotNet/RickAndMorty/RickAndMorty/RickAndMorty.Model/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/konstantin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AvaloniaUI/AvaloniaUI/_packaging/CI/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

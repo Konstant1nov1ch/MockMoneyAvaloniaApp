@@ -1,0 +1,13 @@
+/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/bin/Debug/net8.0/MockMoney.Model.deps.json
+/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/bin/Debug/net8.0/MockMoney.Model.dll
+/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/bin/Debug/net8.0/MockMoney.Model.pdb
+/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/obj/Debug/net8.0/MockMoney.Model.csproj.AssemblyReference.cache
+/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache
+/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/obj/Debug/net8.0/MockMoney.Model.GeneratedMSBuildEditorConfig.editorconfig
+/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/obj/Debug/net8.0/MockMoney.Model.AssemblyInfoInputs.cache
+/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/obj/Debug/net8.0/MockMoney.Model.AssemblyInfo.cs
+/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/obj/Debug/net8.0/MockMoney.Model.csproj.CoreCompileInputs.cache
+/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/obj/Debug/net8.0/MockMoney.Model.dll
+/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/obj/Debug/net8.0/refint/MockMoney.Model.dll
+/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/obj/Debug/net8.0/MockMoney.Model.pdb
+/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/obj/Debug/net8.0/ref/MockMoney.Model.dll

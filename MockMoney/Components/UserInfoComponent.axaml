@@ -1,0 +1,15 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:components="clr-namespace:MockMoney.Components"
+             xmlns:components1="clr-namespace:MockMoney.Components"
+             mc:Ignorable="d" d:DesignWidth="370" d:DesignHeight="150"
+             Initialized="PersonCard_OnInitialized"
+             x:Class="MockMoney.Components.UserInfoComponent"
+             x:DataType="components1:UserInfoComponentViewModel">
+    <Design.DataContext>
+        <components:UserInfoComponentViewModel />
+    </Design.DataContext>
+    
+</UserControl>

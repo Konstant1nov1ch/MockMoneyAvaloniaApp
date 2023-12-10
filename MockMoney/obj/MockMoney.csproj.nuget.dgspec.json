@@ -1,0 +1,423 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/konstantin/RiderProjects/MockMoney/MockMoney/MockMoney.csproj": {}
+  },
+  "projects": {
+    "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Abstractions/MockMoney.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Abstractions/MockMoney.Abstractions.csproj",
+        "projectName": "MockMoney.Abstractions",
+        "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Abstractions/MockMoney.Abstractions.csproj",
+        "packagesPath": "/Users/konstantin/.nuget/packages/",
+        "outputPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Abstractions/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/konstantin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AvaloniaUI/AvaloniaUI/_packaging/CI/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj": {
+                "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj"
+              },
+              "/Users/konstantin/RiderProjects/MockMoney/MockMoney/MockMoney.csproj": {
+                "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney/MockMoney.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.9.0-preview-23577-04, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Commands/MockMoney.Commands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Commands/MockMoney.Commands.csproj",
+        "projectName": "MockMoney.Commands",
+        "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Commands/MockMoney.Commands.csproj",
+        "packagesPath": "/Users/konstantin/.nuget/packages/",
+        "outputPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Commands/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/konstantin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AvaloniaUI/AvaloniaUI/_packaging/CI/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Abstractions/MockMoney.Abstractions.csproj": {
+                "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Abstractions/MockMoney.Abstractions.csproj"
+              },
+              "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj": {
+                "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Mediator": {
+              "target": "Package",
+              "version": "[1.0.2123, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Infrastructure/MockMoney.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Infrastructure/MockMoney.Infrastructure.csproj",
+        "projectName": "MockMoney.Infrastructure",
+        "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Infrastructure/MockMoney.Infrastructure.csproj",
+        "packagesPath": "/Users/konstantin/.nuget/packages/",
+        "outputPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/konstantin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AvaloniaUI/AvaloniaUI/_packaging/CI/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Abstractions/MockMoney.Abstractions.csproj": {
+                "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Abstractions/MockMoney.Abstractions.csproj"
+              },
+              "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Commands/MockMoney.Commands.csproj": {
+                "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Commands/MockMoney.Commands.csproj"
+              },
+              "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj": {
+                "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj",
+        "projectName": "MockMoney.Model",
+        "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj",
+        "packagesPath": "/Users/konstantin/.nuget/packages/",
+        "outputPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/konstantin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AvaloniaUI/AvaloniaUI/_packaging/CI/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/konstantin/RiderProjects/MockMoney/MockMoney/MockMoney.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/konstantin/RiderProjects/MockMoney/MockMoney/MockMoney.csproj",
+        "projectName": "MockMoney",
+        "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney/MockMoney.csproj",
+        "packagesPath": "/Users/konstantin/.nuget/packages/",
+        "outputPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/konstantin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AvaloniaUI/AvaloniaUI/_packaging/CI/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Infrastructure/MockMoney.Infrastructure.csproj": {
+                "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Infrastructure/MockMoney.Infrastructure.csproj"
+              },
+              "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj": {
+                "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AsyncImageLoader.Avalonia": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.0.6, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.0.6, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.0.5, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.0.5, )"
+            },
+            "Avalonia.ReactiveUI": {
+              "target": "Package",
+              "version": "[11.0.5, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.0.5, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "Deadpikle.AvaloniaProgressRing": {
+              "target": "Package",
+              "version": "[0.10.3, )"
+            },
+            "DialogHost.Avalonia": {
+              "target": "Package",
+              "version": "[0.7.7, )"
+            },
+            "Material.Avalonia": {
+              "target": "Package",
+              "version": "[3.1.1.55-nightly, )"
+            },
+            "Material.Avalonia.Dialogs": {
+              "target": "Package",
+              "version": "[3.1.1.55-nightly, )"
+            },
+            "Material.Icons.Avalonia": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

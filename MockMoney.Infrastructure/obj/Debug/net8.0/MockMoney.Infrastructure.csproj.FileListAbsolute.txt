@@ -1,0 +1,5 @@
+/Users/konstantin/RiderProjects/MockMoney2/MockMoney.Infrastructure/obj/Debug/net8.0/MockMoney.Infrastructure.csproj.AssemblyReference.cache
+/Users/konstantin/RiderProjects/MockMoney2/MockMoney.Infrastructure/obj/Debug/net8.0/MockMoney.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/konstantin/RiderProjects/MockMoney2/MockMoney.Infrastructure/obj/Debug/net8.0/MockMoney.Infrastructure.AssemblyInfoInputs.cache
+/Users/konstantin/RiderProjects/MockMoney2/MockMoney.Infrastructure/obj/Debug/net8.0/MockMoney.Infrastructure.AssemblyInfo.cs
+/Users/konstantin/RiderProjects/MockMoney2/MockMoney.Infrastructure/obj/Debug/net8.0/MockMoney.Infrastructure.csproj.CoreCompileInputs.cache

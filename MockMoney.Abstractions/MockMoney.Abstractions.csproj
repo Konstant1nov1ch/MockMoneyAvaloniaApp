@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MockMoney.Model\MockMoney.Model.csproj" />
+      <ProjectReference Include="..\MockMoney\MockMoney.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0-preview-23577-04" />
+      <PackageReference Include="Moq" Version="4.20.70" />
+      <PackageReference Include="xunit" Version="2.6.3" />
+    </ItemGroup>
+
+</Project>
