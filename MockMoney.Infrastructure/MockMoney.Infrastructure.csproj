@@ -1,9 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <LangVersion>latest</LangVersion>
-        <Nullable>enable</Nullable>
+        <TargetFramework>$(BaseTargetFramework)</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
@@ -15,21 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\MockMoney.Abstractions\MockMoney.Abstractions.csproj" />
       <ProjectReference Include="..\MockMoney.Commands\MockMoney.Commands.csproj" />
-      <ProjectReference Include="..\MockMoney.Model\MockMoney.Model.csproj" />
     </ItemGroup>
-
-    <ItemGroup>
-      <Reference Include="Mono.Android">
-        <HintPath>..\..\..\..\Program Files\dotnet\packs\Microsoft.Android.Ref.34\34.0.43\ref\net8.0\Mono.Android.dll</HintPath>
-      </Reference>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Reference Include="Mono.Android">
-        <HintPath>..\..\..\..\Program Files\dotnet\packs\Microsoft.Android.Ref.34\34.0.43\ref\net8.0\Mono.Android.dll</HintPath>
-      </Reference>
-    </ItemGroup>
-
+    
 </Project>

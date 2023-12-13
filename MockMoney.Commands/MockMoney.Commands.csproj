@@ -8,7 +8,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\MockMoney.Abstractions\MockMoney.Abstractions.csproj" />
-      <ProjectReference Include="..\MockMoney.Model\MockMoney.Model.csproj" />
     </ItemGroup>
 
     <ItemGroup>

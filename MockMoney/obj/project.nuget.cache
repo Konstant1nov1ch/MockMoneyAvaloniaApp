@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "umuyb+dW8D0z2GCywjUfc9renHnoPY+N+Atz6NJ5qtxzLWtXXk8oPJME9TX80eYLDie9EA10Xq2ea4afOf6XtA==",
-  "success": false,
+  "dgSpecHash": "BDTL/P/aJlGI1fx0eVllPg8QfFdti+/OpA7CgpvInKibzrPuAJNd3J8Quiw+95niQd0cfJFO0J+/qNOun4X3Eg==",
+  "success": true,
   "projectFilePath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney/MockMoney.csproj",
   "expectedPackageFiles": [
     "/Users/konstantin/.nuget/packages/asyncimageloader.avalonia/3.2.1/asyncimageloader.avalonia.3.2.1.nupkg.sha512",
@@ -196,15 +196,6 @@
       "warningLevel": 1,
       "message": "Package 'ServiceStack.Text 3.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "ServiceStack.Text",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \n  MockMoney -> MockMoney.Infrastructure -> MockMoney.Abstractions -> MockMoney.",
-      "libraryId": "MockMoney",
       "targetGraphs": [
         "net8.0"
       ]

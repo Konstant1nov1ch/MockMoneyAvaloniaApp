@@ -11,3 +11,4 @@
 /Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/obj/Debug/net8.0/refint/MockMoney.Model.dll
 /Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/obj/Debug/net8.0/MockMoney.Model.pdb
 /Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/obj/Debug/net8.0/ref/MockMoney.Model.dll
+/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/obj/Debug/net8.0/MockMoney.Model.sourcelink.json

@@ -35,14 +35,14 @@
                     </Grid.Background>
                     <avaloniaProgressRing:ProgressRing Width="50" 
                                                        Height="50"
-                                                       IsVisible="{Binding IsVisibleLoader}"
+                                                       IsVisible="{Binding IsLoading}"
                                                        IsActive="True"
                                                        HorizontalAlignment="Center"
                                                        VerticalAlignment="Center"
                                                        Foreground="{StaticResource Loader_Background}"
                                                        Margin="10,20,0,0"/>
                     <TextBox Grid.Row="1"
-                             IsVisible="{Binding !IsVisibleLoader}"
+                             IsVisible="{Binding !IsLoading}"
                              Background="Black"
                              Opacity="0.75"
                              HorizontalAlignment="Stretch"

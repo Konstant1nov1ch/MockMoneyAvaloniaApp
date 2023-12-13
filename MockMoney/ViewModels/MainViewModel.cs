@@ -30,15 +30,6 @@ public partial class MainViewModel : ViewModelBase
         _tokenService = tokenService;
         _logger = logger;
     }
-    [ObservableProperty]
-    private bool _isVisibleLoader;
-
-    public bool IsVisibleLoader
-    {
-        get => _isVisibleLoader;
-        set => SetProperty(ref _isVisibleLoader, value);
-    }
-
 
     [RelayCommand]
     private async Task LoginInAppAsync(CancellationToken cancellationToken)

@@ -1,5 +1,5 @@
 ﻿using System.Net.Http.Json;
-using MockMoney.Model.MockMoneyApiJsonObjects;
+using MockMoney.Commands.MockMoneyApiJsonObjects;
 using MockMoney.Abstractions.HttpClients;
 using Newtonsoft.Json;
 using JsonSerializer = System.Text.Json.JsonSerializer;
@@ -8,7 +8,7 @@ namespace MockMoney.Infrastructure.HttpClients
 {
     public sealed class MockMoneyHttpClient : IMockMoneyHttpClient
     {
-        private const string BaseUrl = "http://casaos.kkpin.online/";
+        private const string BaseUrl = "https://casaos.kkpin.online/";
         private readonly HttpClient _httpClient;
 
         public MockMoneyHttpClient(HttpClient httpClient)
