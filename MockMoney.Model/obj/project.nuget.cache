@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "wRFEZ3obRIIOleBLo3Ifj7elOaxx5troX/ZrP8luNs/4+DIYY0SMUkGE/IfZKIa8NXdQPODYN6HqeKR2GAd84w==",
+  "dgSpecHash": "PAfBjaf3t6EF2BApjEO+Q03UqL6VdE1ISZNQUBP7xZETBf0Se8h/KNyf9K/0syaW5GbGgX8JTIEfsKKdm3mwIA==",
   "success": true,
-  "projectFilePath": "/Users/konstantin/RiderProjects/MockMoney2/MockMoney.Model/MockMoney.Model.csproj",
+  "projectFilePath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Model\\MockMoney.Model.csproj",
   "expectedPackageFiles": [
-    "/Users/konstantin/.nuget/packages/avalonia/11.0.6/avalonia.11.0.6.nupkg.sha512",
-    "/Users/konstantin/.nuget/packages/avalonia.buildservices/0.0.29/avalonia.buildservices.0.0.29.nupkg.sha512",
-    "/Users/konstantin/.nuget/packages/avalonia.remote.protocol/11.0.6/avalonia.remote.protocol.11.0.6.nupkg.sha512",
-    "/Users/konstantin/.nuget/packages/microcom.runtime/0.11.0/microcom.runtime.0.11.0.nupkg.sha512",
-    "/Users/konstantin/.nuget/packages/system.componentmodel.annotations/4.5.0/system.componentmodel.annotations.4.5.0.nupkg.sha512"
+    "C:\\Users\\kosty\\.nuget\\packages\\avalonia\\11.0.6\\avalonia.11.0.6.nupkg.sha512",
+    "C:\\Users\\kosty\\.nuget\\packages\\avalonia.buildservices\\0.0.29\\avalonia.buildservices.0.0.29.nupkg.sha512",
+    "C:\\Users\\kosty\\.nuget\\packages\\avalonia.remote.protocol\\11.0.6\\avalonia.remote.protocol.11.0.6.nupkg.sha512",
+    "C:\\Users\\kosty\\.nuget\\packages\\microcom.runtime\\0.11.0\\microcom.runtime.0.11.0.nupkg.sha512",
+    "C:\\Users\\kosty\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

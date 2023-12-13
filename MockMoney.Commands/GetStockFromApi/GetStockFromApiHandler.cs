@@ -1,8 +1,6 @@
-﻿using Avalonia.Themes.Simple;
-using MediatR;
+﻿using MediatR;
 using MockMoney.Abstractions.HttpClients;
 using MockMoney.Commands.GetStock;
-using MockMoney.Model.MockMoneyApiJsonObjects;
 
 namespace MockMoney.Commands.GetStockFromApi;
 

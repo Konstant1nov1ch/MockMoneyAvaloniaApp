@@ -1,5 +1,6 @@
 ﻿using System.Net.Http.Json;
-using MockMoney.Commands.MockMoneyApiJsonObjects;
+using MockMoney.Commands;
+using MockMoney.Model.MockMoneyApiJsonObjects;
 using MockMoney.Abstractions.HttpClients;
 using Newtonsoft.Json;
 using JsonSerializer = System.Text.Json.JsonSerializer;

@@ -30,15 +30,15 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\MockMoney.Infrastructure\MockMoney.Infrastructure.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
       <Compile Update="Views\MainView.axaml.cs">
         <DependentUpon>MainView.axaml</DependentUpon>
       </Compile>
       <Compile Update="Views\MainPage.axaml.cs">
         <DependentUpon>MainPage.axaml</DependentUpon>
       </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MockMoney.Infrastructure\MockMoney.Infrastructure.csproj" />
     </ItemGroup>
 </Project>

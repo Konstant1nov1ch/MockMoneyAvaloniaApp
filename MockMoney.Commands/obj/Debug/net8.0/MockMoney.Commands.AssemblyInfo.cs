@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MockMoney.Commands")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1efc67090eb7dddb5273eb39651c6163d6e614c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("MockMoney.Commands")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MockMoney.Commands")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,30 +13,30 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MockMoney
-build_property.ProjectDir = /Users/konstantin/RiderProjects/MockMoney/MockMoney/
+build_property.ProjectDir = C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[/Users/konstantin/RiderProjects/MockMoney/MockMoney/App.axaml]
+[C:/Users/kosty/RiderProjects/MockMoneyAvaloniaApp/MockMoney/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/konstantin/RiderProjects/MockMoney/MockMoney/Components/AllStockItemComponent.axaml]
+[C:/Users/kosty/RiderProjects/MockMoneyAvaloniaApp/MockMoney/Components/AllStockItemComponent.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/konstantin/RiderProjects/MockMoney/MockMoney/Components/PosChartComponent.axaml]
+[C:/Users/kosty/RiderProjects/MockMoneyAvaloniaApp/MockMoney/Components/PosChartComponent.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/konstantin/RiderProjects/MockMoney/MockMoney/Components/UserInfoComponent.axaml]
+[C:/Users/kosty/RiderProjects/MockMoneyAvaloniaApp/MockMoney/Components/UserInfoComponent.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/konstantin/RiderProjects/MockMoney/MockMoney/Style/AppStyles.axaml]
+[C:/Users/kosty/RiderProjects/MockMoneyAvaloniaApp/MockMoney/Style/AppStyles.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/konstantin/RiderProjects/MockMoney/MockMoney/Views/MainPage.axaml]
+[C:/Users/kosty/RiderProjects/MockMoneyAvaloniaApp/MockMoney/Views/MainPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/konstantin/RiderProjects/MockMoney/MockMoney/Views/MainView.axaml]
+[C:/Users/kosty/RiderProjects/MockMoneyAvaloniaApp/MockMoney/Views/MainView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/konstantin/RiderProjects/MockMoney/MockMoney/Views/MainWindow.axaml]
+[C:/Users/kosty/RiderProjects/MockMoneyAvaloniaApp/MockMoney/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

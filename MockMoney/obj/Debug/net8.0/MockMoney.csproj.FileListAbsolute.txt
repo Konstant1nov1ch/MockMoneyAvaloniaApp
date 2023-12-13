@@ -19,3 +19,14 @@
 /Users/konstantin/RiderProjects/MockMoney/MockMoney/obj/Debug/net8.0/MockMoney.pdb
 /Users/konstantin/RiderProjects/MockMoney/MockMoney/obj/Debug/net8.0/MockMoney.csproj.CopyComplete
 /Users/konstantin/RiderProjects/MockMoney/MockMoney/obj/Debug/net8.0/ref/MockMoney.dll
+C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\MockMoney.csproj.AssemblyReference.cache
+C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache
+C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\Avalonia\resources
+C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\MockMoney.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\MockMoney.AssemblyInfoInputs.cache
+C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\MockMoney.AssemblyInfo.cs
+C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\MockMoney.csproj.CoreCompileInputs.cache
+C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\MockMoney.sourcelink.json
+C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\MockMoney.dll
+C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\refint\MockMoney.dll
+C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\MockMoney.pdb

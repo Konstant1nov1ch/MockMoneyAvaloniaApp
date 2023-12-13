@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/konstantin/RiderProjects/MockMoney2/MockMoney.Model/MockMoney.Model.csproj": {}
+    "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Model\\MockMoney.Model.csproj": {}
   },
   "projects": {
-    "/Users/konstantin/RiderProjects/MockMoney2/MockMoney.Model/MockMoney.Model.csproj": {
+    "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Model\\MockMoney.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/konstantin/RiderProjects/MockMoney2/MockMoney.Model/MockMoney.Model.csproj",
+        "projectUniqueName": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Model\\MockMoney.Model.csproj",
         "projectName": "MockMoney.Model",
-        "projectPath": "/Users/konstantin/RiderProjects/MockMoney2/MockMoney.Model/MockMoney.Model.csproj",
-        "packagesPath": "/Users/konstantin/.nuget/packages/",
-        "outputPath": "/Users/konstantin/RiderProjects/MockMoney2/MockMoney.Model/obj/",
+        "projectPath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Model\\MockMoney.Model.csproj",
+        "packagesPath": "C:\\Users\\kosty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/konstantin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kosty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/AvaloniaUI/AvaloniaUI/_packaging/CI/nuget/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -60,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/konstantin/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

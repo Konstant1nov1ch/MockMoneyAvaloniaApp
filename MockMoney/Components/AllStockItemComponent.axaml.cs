@@ -4,6 +4,6 @@ namespace MockMoney.Components;
 
 public partial class AllStockComponent : UserControl
 {
-    public AllStockComponent() => 
-        InitializeComponent();
+ //   public AllStockComponent() => 
+    //    InitializeComponent();
 }

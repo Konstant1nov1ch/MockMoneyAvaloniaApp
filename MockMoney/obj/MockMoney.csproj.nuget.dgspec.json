@@ -1,34 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/Users/konstantin/RiderProjects/MockMoney/MockMoney/MockMoney.csproj": {}
+    "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney\\MockMoney.csproj": {}
   },
   "projects": {
-    "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Abstractions/MockMoney.Abstractions.csproj": {
+    "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Abstractions\\MockMoney.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Abstractions/MockMoney.Abstractions.csproj",
+        "projectUniqueName": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Abstractions\\MockMoney.Abstractions.csproj",
         "projectName": "MockMoney.Abstractions",
-        "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Abstractions/MockMoney.Abstractions.csproj",
-        "packagesPath": "/Users/konstantin/.nuget/packages/",
-        "outputPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Abstractions/obj/",
+        "projectPath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Abstractions\\MockMoney.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\kosty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/konstantin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kosty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/AvaloniaUI/AvaloniaUI/_packaging/CI/nuget/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj": {
-                "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj"
+              "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Model\\MockMoney.Model.csproj": {
+                "projectPath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Model\\MockMoney.Model.csproj"
               }
             }
           }
@@ -43,6 +44,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.9.0-preview-23577-04, )"
@@ -72,38 +77,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Commands/MockMoney.Commands.csproj": {
+    "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Commands\\MockMoney.Commands.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Commands/MockMoney.Commands.csproj",
+        "projectUniqueName": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Commands\\MockMoney.Commands.csproj",
         "projectName": "MockMoney.Commands",
-        "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Commands/MockMoney.Commands.csproj",
-        "packagesPath": "/Users/konstantin/.nuget/packages/",
-        "outputPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Commands/obj/",
+        "projectPath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Commands\\MockMoney.Commands.csproj",
+        "packagesPath": "C:\\Users\\kosty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Commands\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/konstantin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kosty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/AvaloniaUI/AvaloniaUI/_packaging/CI/nuget/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Abstractions/MockMoney.Abstractions.csproj": {
-                "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Abstractions/MockMoney.Abstractions.csproj"
-              },
-              "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj": {
-                "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj"
+              "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Abstractions\\MockMoney.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Abstractions\\MockMoney.Abstractions.csproj"
               }
             }
           }
@@ -151,41 +154,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Infrastructure/MockMoney.Infrastructure.csproj": {
+    "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Infrastructure\\MockMoney.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Infrastructure/MockMoney.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Infrastructure\\MockMoney.Infrastructure.csproj",
         "projectName": "MockMoney.Infrastructure",
-        "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Infrastructure/MockMoney.Infrastructure.csproj",
-        "packagesPath": "/Users/konstantin/.nuget/packages/",
-        "outputPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Infrastructure/obj/",
+        "projectPath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Infrastructure\\MockMoney.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\kosty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/konstantin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kosty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/AvaloniaUI/AvaloniaUI/_packaging/CI/nuget/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Abstractions/MockMoney.Abstractions.csproj": {
-                "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Abstractions/MockMoney.Abstractions.csproj"
-              },
-              "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Commands/MockMoney.Commands.csproj": {
-                "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Commands/MockMoney.Commands.csproj"
-              },
-              "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj": {
-                "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj"
+              "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Commands\\MockMoney.Commands.csproj": {
+                "projectPath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Commands\\MockMoney.Commands.csproj"
               }
             }
           }
@@ -219,6 +217,10 @@
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -237,28 +239,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj": {
+    "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Model\\MockMoney.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj",
+        "projectUniqueName": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Model\\MockMoney.Model.csproj",
         "projectName": "MockMoney.Model",
-        "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/MockMoney.Model.csproj",
-        "packagesPath": "/Users/konstantin/.nuget/packages/",
-        "outputPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Model/obj/",
+        "projectPath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Model\\MockMoney.Model.csproj",
+        "packagesPath": "C:\\Users\\kosty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/konstantin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kosty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/AvaloniaUI/AvaloniaUI/_packaging/CI/nuget/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -297,35 +300,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/konstantin/RiderProjects/MockMoney/MockMoney/MockMoney.csproj": {
+    "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney\\MockMoney.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/konstantin/RiderProjects/MockMoney/MockMoney/MockMoney.csproj",
+        "projectUniqueName": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney\\MockMoney.csproj",
         "projectName": "MockMoney",
-        "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney/MockMoney.csproj",
-        "packagesPath": "/Users/konstantin/.nuget/packages/",
-        "outputPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney/obj/",
+        "projectPath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney\\MockMoney.csproj",
+        "packagesPath": "C:\\Users\\kosty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/konstantin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kosty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/AvaloniaUI/AvaloniaUI/_packaging/CI/nuget/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Infrastructure/MockMoney.Infrastructure.csproj": {
-                "projectPath": "/Users/konstantin/RiderProjects/MockMoney/MockMoney.Infrastructure/MockMoney.Infrastructure.csproj"
+              "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Infrastructure\\MockMoney.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Infrastructure\\MockMoney.Infrastructure.csproj"
               }
             }
           }
@@ -413,7 +417,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -7,14 +7,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\MockMoney.Abstractions\MockMoney.Abstractions.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="FluentValidation" Version="11.8.1" />
       <PackageReference Include="Mediator" Version="1.0.2123" />
       <PackageReference Include="MediatR" Version="12.2.0" />
       <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MockMoney.Abstractions\MockMoney.Abstractions.csproj" />
     </ItemGroup>
 
 </Project>

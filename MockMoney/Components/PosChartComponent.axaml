@@ -1,3 +1,8 @@
+<controls:UserControl xmlns:controls="https://github.com/avaloniaui">
+
+</controls:UserControl>
+
+
 <!-- <UserControl xmlns="https://github.com/avaloniaui" -->
 <!--              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" -->
 <!--              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" -->
@@ -8,5 +13,3 @@
 <!--              Height="200" -->
 <!--              x:Class="MockMoney.Components.Charting.PlotChartComponent" -->
 <!--              x:DataType="charting:PlotChartComponentViewModel"> -->
-<!--      -->
-<!-- </UserControl> -->
