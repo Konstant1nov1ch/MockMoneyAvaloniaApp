@@ -30,3 +30,7 @@ C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\Moc
 C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\MockMoney.dll
 C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\refint\MockMoney.dll
 C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\MockMoney.pdb
+C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\Avalonia\references
+C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\Avalonia\original.dll
+C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\Avalonia\original.pdb
+C:\Users\kosty\RiderProjects\MockMoneyAvaloniaApp\MockMoney\obj\Debug\net8.0\Avalonia\original.ref.dll

@@ -29,7 +29,7 @@
                     <Grid.Background>
                         <VisualBrush Opacity="0.4" Stretch="UniformToFill">
                             <VisualBrush.Visual>
-                                <Image x:Name="ImageBackground" Source="avares://RickAndMorty/Assets/login.jpg" />
+                                <Image x:Name="ImageBackground" Source="" />
                             </VisualBrush.Visual>
                         </VisualBrush>
                     </Grid.Background>

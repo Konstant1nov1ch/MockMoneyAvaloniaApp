@@ -2,8 +2,7 @@ using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 using Microsoft.Extensions.DependencyInjection;
-using MockMoney.Infrastructure;
-using MockMoney.ViewModels;
+
 using MockMoney.Views;
 
 namespace MockMoney

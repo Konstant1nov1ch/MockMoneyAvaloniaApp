@@ -16,10 +16,6 @@
         <FontWeight x:Key="TabItem_Header_Selected_FontWeight">700</FontWeight>
         <FontWeight x:Key="TextBlock_MainPage_FontWeight">900</FontWeight>
         <Color x:Key="TextBlock_MainPage_Foreground">#FFFFFF</Color>
-        <system:String x:Key="MainPageText1"></system:String>
-        <system:String x:Key="MainPageText2"></system:String>
-        <system:String x:Key="MainPageText3"></system:String>
-        <system:String x:Key="MainPageText4"></system:String>
     </Styles.Resources>
     
     <Style Selector="TextBlock">

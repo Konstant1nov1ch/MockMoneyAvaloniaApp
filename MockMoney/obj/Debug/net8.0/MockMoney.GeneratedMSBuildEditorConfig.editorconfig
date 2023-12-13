@@ -20,15 +20,6 @@ build_property.EnableGeneratedComInterfaceComImportInterop =
 [C:/Users/kosty/RiderProjects/MockMoneyAvaloniaApp/MockMoney/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/kosty/RiderProjects/MockMoneyAvaloniaApp/MockMoney/Components/AllStockItemComponent.axaml]
-build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
-
-[C:/Users/kosty/RiderProjects/MockMoneyAvaloniaApp/MockMoney/Components/PosChartComponent.axaml]
-build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
-
-[C:/Users/kosty/RiderProjects/MockMoneyAvaloniaApp/MockMoney/Components/UserInfoComponent.axaml]
-build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
-
 [C:/Users/kosty/RiderProjects/MockMoneyAvaloniaApp/MockMoney/Style/AppStyles.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
