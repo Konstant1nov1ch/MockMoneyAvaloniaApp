@@ -24,11 +24,11 @@ public partial class MainViewModel : ViewModelBase
     [ObservableProperty]
     private bool _isLoading;
 
-    public MainViewModel(IMediator mediator, ITokenService tokenService, ILogger<MainViewModel> logger)
+    public MainViewModel()
     {
-        _mediator = mediator;
-        _tokenService = tokenService;
-        _logger = logger;
+        // _mediator = mediator;
+        // _tokenService = tokenService;
+        // _logger = logger
     }
 
     [RelayCommand]

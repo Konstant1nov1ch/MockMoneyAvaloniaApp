@@ -23,14 +23,14 @@ namespace MockMoney
             {
                 desktop.MainWindow = new MainWindow
                 {
-                    DataContext = ServiceProvider.GetRequiredService<MainViewModel>()
+                    DataContext = new MainViewModel()
                 };
             }
             else if (ApplicationLifetime is ISingleViewApplicationLifetime singleViewPlatform)
             {
                 singleViewPlatform.MainView = new MainView
                 {
-                    DataContext = ServiceProvider.GetRequiredService<MainViewModel>()
+                    DataContext = new MainViewModel()
                 };
             }
 
