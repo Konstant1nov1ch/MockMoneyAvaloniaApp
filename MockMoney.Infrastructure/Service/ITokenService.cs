@@ -1,6 +1,9 @@
-namespace MockMoney.Infrastructure.Service;
-
-public interface ITokenService
+namespace MockMoney.Infrastructure.Service
 {
-    string Token { get; set; }
+    public interface ITokenService
+    {
+        string Token { get; set; }
+        event EventHandler TokenChanged;
+    }
+    
 }

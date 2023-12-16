@@ -14,23 +14,24 @@ public partial class MainPageViewModel : ViewModelBase
     // private readonly ILogger<MainViewModel> _logger;
     
     private string _tokenFromApi;
-
+    
     public string TokenFromApi
     {
         get => _tokenFromApi;
         set => SetProperty(ref _tokenFromApi, value);
     }
 
-    //public MainPageViewModel()
-    //{
-
-   //     _mediator = Helpers.GetAppServiceProvider().GetService<IMediator>()!;
-    //}
     
     public  MainPageViewModel()
     {
             _tokenService =  Helpers.GetAppServiceProvider().GetRequiredService<ITokenService>();
             TokenFromApi = _tokenService.Token;
+            _tokenService.TokenChanged += TokenService_TokenChanged;
+    }
+
+    private void TokenService_TokenChanged(object sender, EventArgs e)
+    {
+        TokenFromApi = _tokenService.Token;
     }
     
 }

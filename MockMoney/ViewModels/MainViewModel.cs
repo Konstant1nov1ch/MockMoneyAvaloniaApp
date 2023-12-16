@@ -11,7 +11,7 @@ using MockMoney.ViewModels;
 public partial class MainViewModel : ViewModelBase
 {
     private readonly IMediator _mediator;
-    private readonly ITokenService _tokenService;
+    private  ITokenService _tokenService;
    // private readonly ILogger<MainViewModel> _logger;
 
     [ObservableProperty]
@@ -58,6 +58,7 @@ public partial class MainViewModel : ViewModelBase
             if (response.Token != "")
             {
                 IsLogin = true;
+                _tokenService.Token = token;
                 TokenFromApi = _tokenService.Token;
                 
                Console.Write(response);

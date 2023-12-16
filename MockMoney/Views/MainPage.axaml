@@ -19,7 +19,7 @@
         </VisualBrush>
     </UserControl.Background>
     <UserControl.DataContext>
-        <global:MainViewModel/>
+        <vm:MainPageViewModel/>
     </UserControl.DataContext>
     <Grid ColumnDefinitions="0.1*,*,0.1*" RowDefinitions="0.05*,0.25*,*,0.1*">
         <Viewbox Grid.Column="0" Grid.Row="1"
