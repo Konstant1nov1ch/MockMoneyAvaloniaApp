@@ -1,8 +1,9 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using MediatR;
+using Microsoft.Extensions.DependencyInjection;
 using MockMoney.Commands.LoginFromApi;
-using MockMoney.Service;
+using MockMoney.Infrastructure.Service;
 
 namespace MockMoney.ViewModels;
 
@@ -11,32 +12,34 @@ public partial class MainPageViewModel : ViewModelBase
     // private readonly IMediator _mediator;
     private readonly ITokenService _tokenService;
     // private readonly ILogger<MainViewModel> _logger;
-
-    [ObservableProperty]
-    private string _TokenFromApi;
     
+    private string _tokenFromApi;
 
-    public MainPageViewModel()
+    public string TokenFromApi
     {
-
-   //     _mediator = Helpers.GetAppServiceProvider().GetService<IMediator>()!;
+        get => _tokenFromApi;
+        set => SetProperty(ref _tokenFromApi, value);
     }
 
-    [RelayCommand]
-    private async Task LoginInAppAsync(CancellationToken cancellationToken)
-    {
-        try
-        {
+    //public MainPageViewModel()
+    //{
 
-            _TokenFromApi = _tokenService.Token;
-        }
-        catch (Exception ex)
-        {
-            //_logger.LogError(ex, "An error occurred during login.");
-        }
-        finally
-        {
-            IsVisibleLoader = false;
-        }
+   //     _mediator = Helpers.GetAppServiceProvider().GetService<IMediator>()!;
+    //}
+    
+    public  MainPageViewModel()
+    {
+            _tokenService =  Helpers.GetAppServiceProvider().GetRequiredService<ITokenService>();
+            UpdateTokenFromApi();
+    }
+
+    // public MainPageViewModel()
+    // {
+    //     throw new NotImplementedException();
+    // }
+
+    public void UpdateTokenFromApi()
+    {
+        TokenFromApi = _tokenService.Token;
     }
 }

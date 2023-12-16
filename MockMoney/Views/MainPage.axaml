@@ -2,8 +2,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="832"
-             x:Class="MockMoney.Views.MainPage">
+             xmlns:vm="clr-namespace:MockMoney.ViewModels"
+             xmlns:views="clr-namespace:MockMoney.Views"
+             xmlns:assists="clr-namespace:Material.Styles.Assists;assembly=Material.Styles"
+             xmlns:dialogHostAvalonia="clr-namespace:DialogHostAvalonia;assembly=DialogHost.Avalonia"
+             xmlns:global="clr-namespace:"
+             mc:Ignorable="d" d:DesignWidth="1980" d:DesignHeight="832"
+             x:Class="MockMoney.Views.MainPage"
+             x:DataType="vm:MainPageViewModel"
+             >
     <UserControl.Background>
         <VisualBrush Opacity="0.4" Stretch="UniformToFill">
             <VisualBrush.Visual>
@@ -11,11 +18,14 @@
             </VisualBrush.Visual>
         </VisualBrush>
     </UserControl.Background>
+    <UserControl.DataContext>
+        <vm:MainPageViewModel/>
+    </UserControl.DataContext>
     <Grid ColumnDefinitions="0.1*,*,0.1*" RowDefinitions="0.05*,0.25*,*,0.1*">
         <Viewbox Grid.Column="0" Grid.Row="1"
                  Grid.ColumnSpan="3">
             <TextBlock Classes="Title"
-                       Text="MockMoney"></TextBlock>
+                       Text="MockMoney" />
         </Viewbox>
         <Border Grid.Column="1" Grid.Row="2"
                 Background="#000000" HorizontalAlignment="Center" VerticalAlignment="Center"
@@ -26,18 +36,9 @@
         <ScrollViewer x:Name="ScrollViewerText" Grid.Column="1" Grid.Row="2">
             <StackPanel HorizontalAlignment="Center"
                         VerticalAlignment="Center">
-                <StackPanel.Styles>
-                    <Style Selector="TextBlock">
-                        <Setter Property="Margin" Value="0,0,0,15"></Setter>
-                    </Style>
-                </StackPanel.Styles>
-                <TextBlock Text="{Binding TokenFromApi}"
-                           Classes="MainPage"
-                           ZIndex="1"
-                           TextWrapping="WrapWithOverflow">
-                </TextBlock>
+                <TextBlock Text="Ваш токен - " Classes="MainPage" />
+                <TextBlock Text="{Binding TokenFromApi}" Classes="MainPage" Margin="0,0,0,15" />
             </StackPanel>
         </ScrollViewer>
-
     </Grid>
 </UserControl>

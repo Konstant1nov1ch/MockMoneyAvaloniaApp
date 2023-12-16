@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using MockMoney;
 using MockMoney.Commands.LoginFromApi;
-using MockMoney.Service;
+using MockMoney.Infrastructure.Service;
 using MockMoney.ViewModels;
 
 public partial class MainViewModel : ViewModelBase

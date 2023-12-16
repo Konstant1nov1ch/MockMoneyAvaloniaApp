@@ -1,4 +1,4 @@
-namespace MockMoney.Service;
+namespace MockMoney.Infrastructure.Service;
 
 public interface ITokenService
 {
