@@ -25,7 +25,14 @@ public partial class MainViewModel : ViewModelBase
 
     [ObservableProperty]
     private bool _isLoading;
+    
+    private string _tokenFromApi;
 
+    public string TokenFromApi
+    {
+        get => _tokenFromApi;
+        set => SetProperty(ref _tokenFromApi, value);
+    }
     public MainViewModel()
     {
 
@@ -51,7 +58,8 @@ public partial class MainViewModel : ViewModelBase
             if (response.Token != "")
             {
                 IsLogin = true;
-                _tokenService.Token = token;
+                TokenFromApi = _tokenService.Token;
+                
                Console.Write(response);
             }
             else

@@ -30,16 +30,7 @@ public partial class MainPageViewModel : ViewModelBase
     public  MainPageViewModel()
     {
             _tokenService =  Helpers.GetAppServiceProvider().GetRequiredService<ITokenService>();
-            UpdateTokenFromApi();
+            TokenFromApi = _tokenService.Token;
     }
-
-    // public MainPageViewModel()
-    // {
-    //     throw new NotImplementedException();
-    // }
-
-    public void UpdateTokenFromApi()
-    {
-        TokenFromApi = _tokenService.Token;
-    }
+    
 }
