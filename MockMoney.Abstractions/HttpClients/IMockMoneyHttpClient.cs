@@ -5,7 +5,7 @@ namespace MockMoney.Abstractions.HttpClients;
 
 public interface IMockMoneyHttpClient
 {
-    Task<string> GetJwtTokenAsync(string login, string password, CancellationToken cancellationToken = default);
+    Task<String> GetJwtTokenAsync(string login, string password, CancellationToken cancellationToken = default);
     Task<GetStocks> GetAllStocksAsync(string token, CancellationToken cancellationToken = default);
     Task<UserInfo> GetUserInfoAsync(string token, CancellationToken cancellationToken = default);
     Task<GetStocks> GetAllMyStocksAsync(string token, CancellationToken cancellationToken = default);

@@ -12,7 +12,7 @@ public partial class MainViewModel : ViewModelBase
 {
     private readonly IMediator _mediator;
     private readonly ITokenService _tokenService;
-    private readonly ILogger<MainViewModel> _logger;
+   // private readonly ILogger<MainViewModel> _logger;
 
     [ObservableProperty]
     private string _login;
@@ -30,6 +30,8 @@ public partial class MainViewModel : ViewModelBase
     {
 
         _mediator = Helpers.GetAppServiceProvider().GetService<IMediator>()!;
+        _tokenService =  Helpers.GetAppServiceProvider().GetRequiredService<ITokenService>();
+
     }
 
     [RelayCommand]
@@ -49,7 +51,7 @@ public partial class MainViewModel : ViewModelBase
             if (response.Token != "")
             {
                 IsLogin = true;
-                _tokenService.Token = response.Token;
+                _tokenService.Token = token;
                Console.Write(response);
             }
             else

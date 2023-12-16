@@ -18,16 +18,27 @@ namespace MockMoney.Infrastructure.HttpClients
             _httpClient.BaseAddress = new Uri(BaseUrl);
         }
 
-        public async Task<string> GetJwtTokenAsync(string login, string password,
+        public async Task<String> GetJwtTokenAsync(string login, string password,
             CancellationToken cancellationToken = default)
         {
-            const string url = "/api/v1/internal/login";
-            var requestBody = new { login, password };
+            string url = "/api/v1/internal/login";
+            
+             var requestBody = new { login, password };
+            //
+            // using var response = await _httpClient.PostAsJsonAsync(url, requestBody, cancellationToken);
+            // response.EnsureSuccessStatusCode(); // Ensure successful response before reading
+            //
+            // return await response.Content.ReadAsStringAsync(cancellationToken);
+        
 
-            using var response = await _httpClient.PostAsJsonAsync(url, requestBody, cancellationToken);
-            response.EnsureSuccessStatusCode(); // Ensure successful response before reading
+            var response = await _httpClient.PostAsJsonAsync(url, requestBody, cancellationToken);
+            response.EnsureSuccessStatusCode();
 
-            return await response.Content.ReadAsStringAsync(cancellationToken);
+            var content = await response.Content.ReadAsStringAsync(cancellationToken);
+            var tokenResponse = JsonSerializer.Deserialize<GetTokenFromApi>(content)
+                               ?? throw new Exception("Не удалось десериализовать данные о токене из API.");
+
+            return tokenResponse.Token;
         }
 
 

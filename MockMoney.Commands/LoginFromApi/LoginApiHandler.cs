@@ -14,7 +14,7 @@ public sealed class LoginApiHandler : IRequestHandler<LoginApiRequest, LoginApiR
     {
         var token  = await _httpClient.GetJwtTokenAsync( request.Login, request.Password, cancellationToken);
 
-        return new LoginApiResponse()
+        return new LoginApiResponse
         {
             Token = token
         };

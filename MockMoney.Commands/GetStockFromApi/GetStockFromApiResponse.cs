@@ -1,6 +1,6 @@
 ﻿using MockMoney.Model.MockMoneyApiJsonObjects;
 
-namespace MockMoney.Commands.GetStock;
+namespace MockMoney.Commands.GetStockFromApi;
 
 public sealed record GetStockFromApiResponse
 {
