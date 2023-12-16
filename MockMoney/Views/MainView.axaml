@@ -60,19 +60,20 @@
                              Watermark="Пароль"
                              PasswordChar="*"
                              Text="{Binding Password}"/>
-
                     <Button Grid.Row="3" 
                             Content="Войти"
                             Command="{Binding LoginInAppCommand}" />
-
+                    <!-- <Button Grid.Row="4"  -->
+                    <!--         Content="Регистрация" -->
+                    <!--         Command="{Binding RegisterInAppCommand}" /> -->
                 </Grid>
             </dialogHostAvalonia:DialogHost.DialogContent>
         </dialogHostAvalonia:DialogHost>
         
         <TabControl IsVisible="{Binding IsLogin}">
-            <TabItem Header="Главная" Classes="Menu">
-                <views:MainPage/>
-            </TabItem>
-        </TabControl>
+                <TabItem Header="Главная" Classes="Menu">
+                    <views:MainPage/>
+                </TabItem>
+            </TabControl>
     </Grid>
 </UserControl>

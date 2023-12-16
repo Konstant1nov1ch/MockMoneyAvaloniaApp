@@ -38,6 +38,8 @@ public static class ConfigureApp
         serviceCollection.AddMediatR(configuration => { configuration.RegisterServicesFromAssembly(typeof(LoggingBehavior<,>).Assembly); });
         serviceCollection.AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));
         serviceCollection.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+        //vALIDATOR
+        serviceCollection.AddValidatorsFromAssembly(typeof(LoggingBehavior<,>).Assembly);
         ConfigureServices(serviceCollection);
         return serviceCollection.BuildServiceProvider();
     }

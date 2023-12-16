@@ -31,22 +31,7 @@
                         <Setter Property="Margin" Value="0,0,0,15"></Setter>
                     </Style>
                 </StackPanel.Styles>
-                <TextBlock Text="{StaticResource MainPageText1}"
-                           Classes="MainPage"
-                           ZIndex="1"
-                           TextWrapping="WrapWithOverflow">
-                </TextBlock>
-                <TextBlock Text="{StaticResource MainPageText2}"
-                           Classes="MainPage"
-                           ZIndex="1"
-                           TextWrapping="WrapWithOverflow">
-                </TextBlock>
-                <TextBlock Text="{StaticResource MainPageText3}"
-                           Classes="MainPage"
-                           ZIndex="1"
-                           TextWrapping="WrapWithOverflow">
-                </TextBlock>
-                <TextBlock Text="{StaticResource MainPageText4}"
+                <TextBlock Text="{Binding TokenFromApi}"
                            Classes="MainPage"
                            ZIndex="1"
                            TextWrapping="WrapWithOverflow">

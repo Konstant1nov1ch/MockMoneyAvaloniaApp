@@ -1,7 +1,9 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using MediatR;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using MockMoney;
 using MockMoney.Commands.LoginFromApi;
 using MockMoney.Service;
 using MockMoney.ViewModels;
@@ -26,9 +28,8 @@ public partial class MainViewModel : ViewModelBase
 
     public MainViewModel()
     {
-        // _mediator = mediator;
-        // _tokenService = tokenService;
-        // _logger = logger
+
+        _mediator = Helpers.GetAppServiceProvider().GetService<IMediator>()!;
     }
 
     [RelayCommand]
@@ -38,17 +39,18 @@ public partial class MainViewModel : ViewModelBase
         {
             IsVisibleLoader = true;
 
-            var hashedPassword = _password;
+            var hashedPassword = Password;
 
-            var loginRequest = new LoginApiRequest(_login, hashedPassword);
+            var loginRequest = Login;
 
-            var response = await _mediator.Send(loginRequest, cancellationToken);
-
+            var response = await _mediator.Send(new LoginApiRequest(loginRequest, hashedPassword), cancellationToken);
+            var token = response.Token;
+            
             if (response.Token != "")
             {
-                _isLogin = true;
+                IsLogin = true;
                 _tokenService.Token = response.Token;
-                _logger.LogInformation("User logged in successfully.");
+               Console.Write(response);
             }
             else
             {
@@ -56,7 +58,7 @@ public partial class MainViewModel : ViewModelBase
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "An error occurred during login.");
+            //_logger.LogError(ex, "An error occurred during login.");
         }
         finally
         {

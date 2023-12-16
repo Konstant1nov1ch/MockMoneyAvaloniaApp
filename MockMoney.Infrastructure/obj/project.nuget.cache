@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wEe4DUGNFSk+C3uVBfpqq5UAKbfzCMaTbhLjmKFjZVkR+lk+A/iad9VU2wigbnqNM3FqmYOOZE2SQRbf2P8ngw==",
+  "dgSpecHash": "UIDGKGcgUv0/9tluHBP39EZklcpDoFBU+WExXAb3zLqgCqkq0DnEESG9jKbUlbDkzXjNeEjEGjWfAZIIF6ZX5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\kosty\\RiderProjects\\MockMoneyAvaloniaApp\\MockMoney.Infrastructure\\MockMoney.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\kosty\\.nuget\\packages\\avalonia.remote.protocol\\11.0.6\\avalonia.remote.protocol.11.0.6.nupkg.sha512",
     "C:\\Users\\kosty\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\kosty\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
+    "C:\\Users\\kosty\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.8.1\\fluentvalidation.dependencyinjectionextensions.11.8.1.nupkg.sha512",
     "C:\\Users\\kosty\\.nuget\\packages\\mediator\\1.0.2123\\mediator.1.0.2123.nupkg.sha512",
     "C:\\Users\\kosty\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\kosty\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
@@ -131,7 +132,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"Mediator 1.0.2123\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Package 'Mediator 1.0.2123' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Mediator",
       "targetGraphs": [
         "net8.0"
@@ -141,7 +142,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"ServiceStack.Text 3.2.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Package 'ServiceStack.Text 3.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "ServiceStack.Text",
       "targetGraphs": [
         "net8.0"

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="MockMoney/App.axaml" value="MockMoney.Desktop/MockMoney.Desktop.csproj" />
+        <entry key="MockMoney/Style/AppStyles.axaml" value="MockMoney.Desktop/MockMoney.Desktop.csproj" />
+        <entry key="MockMoney/Views/MainPage.axaml" value="MockMoney.Desktop/MockMoney.Desktop.csproj" />
+        <entry key="MockMoney/Views/MainView.axaml" value="MockMoney.Desktop/MockMoney.Desktop.csproj" />
+        <entry key="MockMoney/Views/MainWindow.axaml" value="MockMoney.Desktop/MockMoney.Desktop.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
