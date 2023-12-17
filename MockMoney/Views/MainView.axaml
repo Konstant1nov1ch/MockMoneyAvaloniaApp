@@ -76,7 +76,7 @@
                 </TabItem>
             </TabControl>
         
-        <TabControl IsVisible="{Binding IsRegisterInAppCommand}">
+        <TabControl IsVisible="{Binding IsRegisterInApp }">
                 <views:RegisterAppPage/>
         </TabControl>
     </Grid>

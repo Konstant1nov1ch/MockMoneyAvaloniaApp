@@ -24,7 +24,7 @@ public partial class MainViewModel : ViewModelBase
     private bool _isLogin;
     
     [ObservableProperty]
-    private bool _isRegisterInAppCommand;
+    private bool _isRegisterInApp;
 
     [ObservableProperty]
     private bool _isLoading;
@@ -81,9 +81,10 @@ public partial class MainViewModel : ViewModelBase
     }
     
     [RelayCommand]
-    private async Task RegisterInAppCommand(CancellationToken cancellationToken)
+    private async Task RegisterInAppCommand()
     {
-        IsRegisterInAppCommand = true;
+        IsRegisterInApp = true;
+
     }
 
     

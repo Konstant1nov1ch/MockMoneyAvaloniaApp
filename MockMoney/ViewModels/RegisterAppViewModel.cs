@@ -4,6 +4,7 @@ using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using MockMoney.Commands.RegisterApi;
 using MockMoney.Infrastructure.Service;
+using MockMoney.Views;
 
 namespace MockMoney.ViewModels;
 
@@ -27,7 +28,7 @@ public partial class RegisterAppViewModel : ViewModelBase
     
     [ObservableProperty]
     private bool _isLoading;
-    
+
 
     public RegisterAppViewModel()
     {
@@ -37,7 +38,7 @@ public partial class RegisterAppViewModel : ViewModelBase
     }
 
     [RelayCommand]
-    private async Task RegisterInAppCommand(CancellationToken cancellationToken)
+    private async Task RegisterAppCommand(CancellationToken cancellationToken)
     {
         try
         {
@@ -54,8 +55,7 @@ public partial class RegisterAppViewModel : ViewModelBase
             if (response.IsSuccessful)
             {
                 IsRegister = true;
-                
-              //  Console.Write(response);
+              
             }
             else
             {
