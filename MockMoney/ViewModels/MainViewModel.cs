@@ -19,13 +19,13 @@ public partial class MainViewModel : ViewModelBase
 
     [ObservableProperty]
     private string _password; 
-
+    [ObservableProperty]
+    private bool _isRegisterInApp;
+    
     [ObservableProperty]
     private bool _isLogin;
     
-    [ObservableProperty]
-    private bool _isRegisterInApp;
-
+    
     [ObservableProperty]
     private bool _isLoading;
     

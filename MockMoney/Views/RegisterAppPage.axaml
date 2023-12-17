@@ -75,9 +75,10 @@
                 </Grid>
             </dialogHostAvalonia:DialogHost.DialogContent>
         </dialogHostAvalonia:DialogHost>
-        
-        <TabControl IsVisible="{Binding IsRegister}">
-                <views:MainView/>
+        <TabControl IsVisible="{Binding IsLogin}">
+            <TabItem Header="Главная" Classes="Menu">
+                <views:MainPage/>
+            </TabItem>
         </TabControl>
     </Grid>
 </UserControl>
