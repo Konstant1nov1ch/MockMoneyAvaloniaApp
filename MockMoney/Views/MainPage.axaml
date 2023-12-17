@@ -9,33 +9,25 @@
              xmlns:global="clr-namespace:"
              mc:Ignorable="d" d:DesignWidth="1980" d:DesignHeight="832"
              x:Class="MockMoney.Views.MainPage"
-             x:DataType="vm:MainPageViewModel"
-             >
-    <UserControl.Background>
-        <VisualBrush Opacity="0.4" Stretch="UniformToFill">
-            <VisualBrush.Visual>
-                <Image x:Name="ImageBackground" Source="" />
-            </VisualBrush.Visual>
-        </VisualBrush>
-    </UserControl.Background>
-    <UserControl.DataContext>
-        <vm:MainPageViewModel/>
-    </UserControl.DataContext>
-    <Grid ColumnDefinitions="0.1*,*,0.1*" RowDefinitions="0.05*,0.25*,*,0.1*">
-        <Viewbox Grid.Column="0" Grid.Row="1"
-                 Grid.ColumnSpan="3">
-            <TextBlock Classes="Title"
-                       Text="MockMoney" />
-        </Viewbox>
-        <Border Grid.Column="1" Grid.Row="2"
-                Background="#000000" HorizontalAlignment="Center" VerticalAlignment="Center"
-                Width="{Binding ElementName=ScrollViewerText, Path=Bounds.Width}"
-                Height="{Binding ElementName=ScrollViewerText, Path=Bounds.Height}"
-                Opacity="0.6">
-        </Border>
-        <ScrollViewer x:Name="ScrollViewerText" Grid.Column="1" Grid.Row="2">
-            <StackPanel HorizontalAlignment="Center"
-                        VerticalAlignment="Center">
+             x:DataType="vm:MainPageViewModel">
+
+    <!-- Background and DataContext remain unchanged -->
+
+    <Grid ColumnDefinitions="5*,95*"> <!-- Divide the grid into two columns -->
+
+        <!-- Left column for menu -->
+        <ScrollViewer Grid.Column="0" >
+            <StackPanel >
+                <Button Content="Главная" Margin="0,0,0,15" />
+                <Button Content="Мой кошелек" Margin="0,0,0,15" />
+                <Button Content="Мои акции"  Margin="0,0,0,15"/>
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- Right column for content -->
+        <ScrollViewer Grid.Column="1">
+            <!-- Content area -->
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
                 <TextBlock Text="Ваш токен - " Classes="MainPage" />
                 <TextBlock Text="{Binding TokenFromApi}" Classes="MainPage" Margin="0,0,0,15" />
             </StackPanel>

@@ -8,6 +8,7 @@
         <entry key="MockMoney/Views/MainPage.axaml" value="MockMoney.Desktop/MockMoney.Desktop.csproj" />
         <entry key="MockMoney/Views/MainView.axaml" value="MockMoney.Desktop/MockMoney.Desktop.csproj" />
         <entry key="MockMoney/Views/MainWindow.axaml" value="MockMoney.Desktop/MockMoney.Desktop.csproj" />
+        <entry key="MockMoney/Views/RegisterAppPage.axaml" value="MockMoney.Desktop/MockMoney.Desktop.csproj" />
       </map>
     </option>
   </component>

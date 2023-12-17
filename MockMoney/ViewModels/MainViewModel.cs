@@ -11,7 +11,7 @@ using MockMoney.ViewModels;
 public partial class MainViewModel : ViewModelBase
 {
     private readonly IMediator _mediator;
-    private  ITokenService _tokenService;
+    private readonly ITokenService _tokenService;
    // private readonly ILogger<MainViewModel> _logger;
 
     [ObservableProperty]
@@ -22,6 +22,9 @@ public partial class MainViewModel : ViewModelBase
 
     [ObservableProperty]
     private bool _isLogin;
+    
+    [ObservableProperty]
+    private bool _isRegisterInAppCommand;
 
     [ObservableProperty]
     private bool _isLoading;
@@ -75,6 +78,12 @@ public partial class MainViewModel : ViewModelBase
         {
             IsVisibleLoader = false;
         }
+    }
+    
+    [RelayCommand]
+    private async Task RegisterInAppCommand(CancellationToken cancellationToken)
+    {
+        IsRegisterInAppCommand = true;
     }
 
     
